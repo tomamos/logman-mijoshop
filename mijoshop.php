@@ -7,12 +7,12 @@
  */
 
 /**
- * K2 LOGman Plugin.
+ * MijoShop LOGman Plugin.
  *
  * @author  Arunas Mazeika <https://github.com/amazeika>
  * @package Joomlatools\Plugin\LOGman
  */
-class PlgLogmanK2 extends ComLogmanPluginJoomla
+class PlgLogmanMijoShop extends ComLogmanPluginJoomla
 {
     protected function _initialize(KObjectConfig $config)
     {
@@ -34,7 +34,7 @@ class PlgLogmanK2 extends ComLogmanPluginJoomla
     public function onFinderAfterSave($context, $row, $isNew)
     {
         // Item model triggers both content and finder after save events. Only one should go through.
-        if ($context != 'com_k2.item') {
+        if ($context != 'com_mijoshop.item') {
             $this->onContentAfterSave($context, $row, $isNew); // Forward event to the content event handler.
         }
     }
@@ -53,7 +53,7 @@ class PlgLogmanK2 extends ComLogmanPluginJoomla
 
     protected function _getItems($ids, KObjectConfig $config)
     {
-        $config->type   = 'K2' . $config->type;
+        $config->type   = 'MijoShop' . $config->type;
         $config->prefix = 'Table';
 
         return parent::_getItems($ids, $config);
