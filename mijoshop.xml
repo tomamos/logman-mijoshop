@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="plugin" version="3.0" group="logman" method="upgrade" overwrite="true">
-    <identifier>plg:logman.k2</identifier>
-    <name>plg_logman_k2</name>
+    <identifier>plg:logman.mijoshop</identifier>
+    <name>plg_logman_mijoshop</name>
     <author>Joomlatools</author>
-    <creationDate>January 2015</creationDate>
+    <creationDate>March 2015</creationDate>
     <copyright>Copyright (C) 2011 - 2015 Timble CVBA (http://www.timble.net)</copyright>
     <license>GNU GPLv3 - http://www.gnu.org/licenses/gpl.html</license>
     <authorEmail>support@joomlatools.com</authorEmail>
     <authorUrl>www.joomlatools.com</authorUrl>
     <version>2.0.0</version>
-    <description>PLG_LOGMAN_K2_DESC</description>
+    <description>PLG_LOGMAN_MIJOSHOP_DESC</description>
 
     <scriptfile>install.php</scriptfile>
 
     <files>
-        <filename plugin="k2">k2.php</filename>
+        <filename plugin="mijoshop">mijoshop.php</filename>
         <filename>version.php</filename>
         <folder>activity</folder>
         <folder>language</folder>
