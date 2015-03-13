@@ -7,12 +7,12 @@
  */
 
 /**
- * LOGman - K2 installer
+ * LOGman - MijoShop installer
  *
  * @author  Arunas Mazeika <https://github.com/amazeika>
  * @package Joomlatools\Component\LOGman
  */
-class plgLogmanK2InstallerScript
+class plgLogmanMijoShopInstallerScript
 {
     /**
      * @var string The current installed LOGman version.
