@@ -1,4 +1,4 @@
-LOGman MijoShop plugin
+LOGman MijoShop plugin (Not working yet)
 ========================
 
 Plugin for integrating [MijoShop](http://miwisoft.com/joomla-extensions/mijoshop-joomla-shopping-cart) with LOGman. [LOGman](http://joomlatools.com/logman) is a user analytics and audit trail solution for Joomla.
