@@ -1,7 +1,7 @@
-LOGman K2 plugin
+LOGman MijoShop plugin
 ========================
 
-Plugin for integrating [K2](http://getk2.org/) with LOGman. [LOGman](http://joomlatools.com/logman) is a user analytics and audit trail solution for Joomla.
+Plugin for integrating [MijoShop](http://miwisoft.com/joomla-extensions/mijoshop-joomla-shopping-cart) with LOGman. [LOGman](http://joomlatools.com/logman) is a user analytics and audit trail solution for Joomla.
 
 ## Installation
 
@@ -12,7 +12,7 @@ You can install this package using [Composer](https://getcomposer.org/). Create 
 ```
 {
     "require": {        
-        "joomlatools/plg_logman_k2": "dev-master"
+        "joomlatools/plg_logman_mijoshop": "dev-master"
     },
     "minimum-stability": "dev"
 }
@@ -28,11 +28,11 @@ After downloading the package, you may install this plugin using the Joomla! ext
 
 ## Usage
 
-After the package is installed, make sure to enable the plugin and that both LOGman and K2 are installed.
+After the package is installed, make sure to enable the plugin and that both LOGman and MijoShop are installed.
 
 ## Supported activities
 
-The following K2 actions are currently logged:
+The following MijoShop actions are currently logged:
 
 ### Items
 
@@ -52,4 +52,4 @@ The following K2 actions are currently logged:
 
 ## Limitations
 
-Trash actions on both categories and items are not supported since no events are internally triggered by K2 upon those actions.
+Trash actions on both categories and items are not supported since no events are internally triggered by MijoShop upon those actions.
