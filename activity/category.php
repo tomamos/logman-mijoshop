@@ -7,17 +7,17 @@
  */
 
 /**
- * Category/K2 Activity Entity
+ * Category/MijoShop Activity Entity
  *
  * @author  Arunas Mazeika <https://github.com/amazeika>
  * @package Joomlatools\Plugin\LOGman
  */
-class PlgLogmanK2ActivityCategory extends ComLogmanModelEntityActivity
+class PlgLogmanMijoShopActivityCategory extends ComLogmanModelEntityActivity
 {
     protected function _initialize(KObjectConfig $config)
     {
         $config->append(array(
-            'object_table' => 'k2_categories',
+            'object_table' => 'mijoshop_categories',
             'format'       => '{actor} {action} {object.subtype} {object.type} title {object}'
         ));
         parent::_initialize($config);
@@ -26,8 +26,8 @@ class PlgLogmanK2ActivityCategory extends ComLogmanModelEntityActivity
     protected function _objectConfig(KObjectConfig $config)
     {
         $config->append(array(
-            'subtype' => array('object' => true, 'objectName' => 'K2'),
-            'url'     => 'option=com_k2&view=category&cid=' . $this->row
+            'subtype' => array('object' => true, 'objectName' => 'MijoShop'),
+            'url'     => 'option=com_mijoshop&view=category&cid=' . $this->row
         ));
 
         parent::_objectConfig($config);
