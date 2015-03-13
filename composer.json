@@ -1,16 +1,16 @@
 {
-  "name": "joomlatools/plg_logman_k2",
+  "name": "joomlatools/plg_logman_mijoshop",
   "type": "joomla-extension",
   "license": "GPLv3",
-  "description": "Handles logging of K2 component events",
+  "description": "Handles logging of MijoShop component events",
   "keywords": [
     "joomla",
     "extension",
     "plugins",
     "logman",
-    "k2"
+    "mijoshop"
   ],
-  "homepage": "https://github.com/joomlatools/logman-k2",
+  "homepage": "https://github.com/tomamos/logman-mijoshop",
   "authors": [
     {
       "name": "Joomlatools",
